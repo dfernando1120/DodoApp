@@ -7,13 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		51E83BD51E3112B0001F9A21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E83BD41E3112B0001F9A21 /* AppDelegate.swift */; };
-		51E83BD71E3112B0001F9A21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E83BD61E3112B0001F9A21 /* ViewController.swift */; };
-		51E83BDA1E3112B0001F9A21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51E83BD81E3112B0001F9A21 /* Main.storyboard */; };
 		51E83BDC1E3112B0001F9A21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51E83BDB1E3112B0001F9A21 /* Assets.xcassets */; };
-		51E83BDF1E3112B0001F9A21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51E83BDD1E3112B0001F9A21 /* LaunchScreen.storyboard */; };
 		51E83BEA1E3112B0001F9A21 /* DodoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E83BE91E3112B0001F9A21 /* DodoAppTests.swift */; };
 		51E83BF51E3112B0001F9A21 /* DodoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E83BF41E3112B0001F9A21 /* DodoAppUITests.swift */; };
+		51E83C331E311A0E001F9A21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51E83C251E311A0E001F9A21 /* Main.storyboard */; };
+		51E83C341E311A0E001F9A21 /* DodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E83C261E311A0E001F9A21 /* DodoViewController.swift */; };
+		51E83C351E311A0E001F9A21 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E83C271E311A0E001F9A21 /* FavoritesViewController.swift */; };
+		51E83C361E311A0E001F9A21 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E83C281E311A0E001F9A21 /* SettingsViewController.swift */; };
+		51E83C371E311A0E001F9A21 /* SettingsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E83C291E311A0E001F9A21 /* SettingsDetailViewController.swift */; };
+		51E83C381E311A0E001F9A21 /* Sharing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E83C2A1E311A0E001F9A21 /* Sharing.swift */; };
+		51E83C391E311A0E001F9A21 /* FavoriteJokes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E83C2B1E311A0E001F9A21 /* FavoriteJokes.swift */; };
+		51E83C3A1E311A0E001F9A21 /* Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E83C2C1E311A0E001F9A21 /* Audio.swift */; };
+		51E83C3B1E311A0E001F9A21 /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E83C2D1E311A0E001F9A21 /* Animations.swift */; };
+		51E83C3C1E311A0E001F9A21 /* Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E83C2E1E311A0E001F9A21 /* Design.swift */; };
+		51E83C3D1E311A0E001F9A21 /* RandomDigit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E83C2F1E311A0E001F9A21 /* RandomDigit.swift */; };
+		51E83C3E1E311A0E001F9A21 /* Jokes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E83C301E311A0E001F9A21 /* Jokes.swift */; };
+		51E83C3F1E311A0E001F9A21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E83C311E311A0E001F9A21 /* AppDelegate.swift */; };
+		51E83C401E311A0E001F9A21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51E83C321E311A0E001F9A21 /* LaunchScreen.storyboard */; };
+		51E83C481E3129CA001F9A21 /* Boing.wav in Resources */ = {isa = PBXBuildFile; fileRef = 51E83C411E3129CA001F9A21 /* Boing.wav */; };
+		51E83C491E3129CA001F9A21 /* ButtonTap.wav in Resources */ = {isa = PBXBuildFile; fileRef = 51E83C421E3129CA001F9A21 /* ButtonTap.wav */; };
+		51E83C4A1E3129CA001F9A21 /* Joke-Sting.wav in Resources */ = {isa = PBXBuildFile; fileRef = 51E83C431E3129CA001F9A21 /* Joke-Sting.wav */; };
+		51E83C4B1E3129CA001F9A21 /* Swoosh-2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 51E83C441E3129CA001F9A21 /* Swoosh-2.wav */; };
+		51E83C4C1E3129CA001F9A21 /* proxima-nova-soft-bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 51E83C461E3129CA001F9A21 /* proxima-nova-soft-bold.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +50,7 @@
 
 /* Begin PBXFileReference section */
 		51E83BD11E3112B0001F9A21 /* DodoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DodoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		51E83BD41E3112B0001F9A21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		51E83BD61E3112B0001F9A21 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		51E83BD91E3112B0001F9A21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		51E83BDB1E3112B0001F9A21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		51E83BDE1E3112B0001F9A21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51E83BE01E3112B0001F9A21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		51E83BE51E3112B0001F9A21 /* DodoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DodoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		51E83BE91E3112B0001F9A21 /* DodoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DodoAppTests.swift; sourceTree = "<group>"; };
@@ -47,6 +58,26 @@
 		51E83BF01E3112B0001F9A21 /* DodoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DodoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		51E83BF41E3112B0001F9A21 /* DodoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DodoAppUITests.swift; sourceTree = "<group>"; };
 		51E83BF61E3112B0001F9A21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51E83C251E311A0E001F9A21 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		51E83C261E311A0E001F9A21 /* DodoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DodoViewController.swift; sourceTree = "<group>"; };
+		51E83C271E311A0E001F9A21 /* FavoritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		51E83C281E311A0E001F9A21 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		51E83C291E311A0E001F9A21 /* SettingsDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsDetailViewController.swift; sourceTree = "<group>"; };
+		51E83C2A1E311A0E001F9A21 /* Sharing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sharing.swift; sourceTree = "<group>"; };
+		51E83C2B1E311A0E001F9A21 /* FavoriteJokes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteJokes.swift; sourceTree = "<group>"; };
+		51E83C2C1E311A0E001F9A21 /* Audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Audio.swift; sourceTree = "<group>"; };
+		51E83C2D1E311A0E001F9A21 /* Animations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animations.swift; sourceTree = "<group>"; };
+		51E83C2E1E311A0E001F9A21 /* Design.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Design.swift; sourceTree = "<group>"; };
+		51E83C2F1E311A0E001F9A21 /* RandomDigit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomDigit.swift; sourceTree = "<group>"; };
+		51E83C301E311A0E001F9A21 /* Jokes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Jokes.swift; sourceTree = "<group>"; };
+		51E83C311E311A0E001F9A21 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		51E83C321E311A0E001F9A21 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		51E83C411E3129CA001F9A21 /* Boing.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Boing.wav; sourceTree = "<group>"; };
+		51E83C421E3129CA001F9A21 /* ButtonTap.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ButtonTap.wav; sourceTree = "<group>"; };
+		51E83C431E3129CA001F9A21 /* Joke-Sting.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Joke-Sting.wav"; sourceTree = "<group>"; };
+		51E83C441E3129CA001F9A21 /* Swoosh-2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Swoosh-2.wav"; sourceTree = "<group>"; };
+		51E83C461E3129CA001F9A21 /* proxima-nova-soft-bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "proxima-nova-soft-bold.otf"; sourceTree = "<group>"; };
+		51E83C501E313410001F9A21 /* DodoApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DodoApp-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +128,16 @@
 		51E83BD31E3112B0001F9A21 /* DodoApp */ = {
 			isa = PBXGroup;
 			children = (
-				51E83BD41E3112B0001F9A21 /* AppDelegate.swift */,
-				51E83BD61E3112B0001F9A21 /* ViewController.swift */,
-				51E83BD81E3112B0001F9A21 /* Main.storyboard */,
+				51E83C251E311A0E001F9A21 /* Main.storyboard */,
+				51E83C311E311A0E001F9A21 /* AppDelegate.swift */,
+				51E83C4D1E312E6E001F9A21 /* VIEW CONTROLLERS */,
+				51E83C4E1E312E88001F9A21 /* MODEL CLASSES */,
+				51E83C451E3129CA001F9A21 /* AUDIO */,
+				51E83C471E3129CA001F9A21 /* FONTS */,
+				51E83C321E311A0E001F9A21 /* LaunchScreen.storyboard */,
 				51E83BDB1E3112B0001F9A21 /* Assets.xcassets */,
-				51E83BDD1E3112B0001F9A21 /* LaunchScreen.storyboard */,
 				51E83BE01E3112B0001F9A21 /* Info.plist */,
+				51E83C501E313410001F9A21 /* DodoApp-Bridging-Header.h */,
 			);
 			path = DodoApp;
 			sourceTree = "<group>";
@@ -123,6 +158,52 @@
 				51E83BF61E3112B0001F9A21 /* Info.plist */,
 			);
 			path = DodoAppUITests;
+			sourceTree = "<group>";
+		};
+		51E83C451E3129CA001F9A21 /* AUDIO */ = {
+			isa = PBXGroup;
+			children = (
+				51E83C411E3129CA001F9A21 /* Boing.wav */,
+				51E83C421E3129CA001F9A21 /* ButtonTap.wav */,
+				51E83C431E3129CA001F9A21 /* Joke-Sting.wav */,
+				51E83C441E3129CA001F9A21 /* Swoosh-2.wav */,
+			);
+			name = AUDIO;
+			path = "/Users/dillon/Documents/APP_CODE-WORK/HUH/Dodo_42/Dodo/..";
+			sourceTree = "<absolute>";
+		};
+		51E83C471E3129CA001F9A21 /* FONTS */ = {
+			isa = PBXGroup;
+			children = (
+				51E83C461E3129CA001F9A21 /* proxima-nova-soft-bold.otf */,
+			);
+			name = FONTS;
+			path = "/Users/dillon/Documents/APP_CODE-WORK/HUH/Dodo_42/Dodo/..";
+			sourceTree = "<absolute>";
+		};
+		51E83C4D1E312E6E001F9A21 /* VIEW CONTROLLERS */ = {
+			isa = PBXGroup;
+			children = (
+				51E83C261E311A0E001F9A21 /* DodoViewController.swift */,
+				51E83C271E311A0E001F9A21 /* FavoritesViewController.swift */,
+				51E83C281E311A0E001F9A21 /* SettingsViewController.swift */,
+				51E83C291E311A0E001F9A21 /* SettingsDetailViewController.swift */,
+			);
+			name = "VIEW CONTROLLERS";
+			sourceTree = "<group>";
+		};
+		51E83C4E1E312E88001F9A21 /* MODEL CLASSES */ = {
+			isa = PBXGroup;
+			children = (
+				51E83C2A1E311A0E001F9A21 /* Sharing.swift */,
+				51E83C2B1E311A0E001F9A21 /* FavoriteJokes.swift */,
+				51E83C2C1E311A0E001F9A21 /* Audio.swift */,
+				51E83C2D1E311A0E001F9A21 /* Animations.swift */,
+				51E83C2E1E311A0E001F9A21 /* Design.swift */,
+				51E83C2F1E311A0E001F9A21 /* RandomDigit.swift */,
+				51E83C301E311A0E001F9A21 /* Jokes.swift */,
+			);
+			name = "MODEL CLASSES";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +275,7 @@
 					51E83BD01E3112B0001F9A21 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = NMVG52YTDH;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					51E83BE41E3112B0001F9A21 = {
@@ -235,9 +317,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51E83BDF1E3112B0001F9A21 /* LaunchScreen.storyboard in Resources */,
+				51E83C481E3129CA001F9A21 /* Boing.wav in Resources */,
+				51E83C4C1E3129CA001F9A21 /* proxima-nova-soft-bold.otf in Resources */,
+				51E83C4B1E3129CA001F9A21 /* Swoosh-2.wav in Resources */,
+				51E83C401E311A0E001F9A21 /* LaunchScreen.storyboard in Resources */,
 				51E83BDC1E3112B0001F9A21 /* Assets.xcassets in Resources */,
-				51E83BDA1E3112B0001F9A21 /* Main.storyboard in Resources */,
+				51E83C4A1E3129CA001F9A21 /* Joke-Sting.wav in Resources */,
+				51E83C491E3129CA001F9A21 /* ButtonTap.wav in Resources */,
+				51E83C331E311A0E001F9A21 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,8 +349,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51E83BD71E3112B0001F9A21 /* ViewController.swift in Sources */,
-				51E83BD51E3112B0001F9A21 /* AppDelegate.swift in Sources */,
+				51E83C3F1E311A0E001F9A21 /* AppDelegate.swift in Sources */,
+				51E83C3C1E311A0E001F9A21 /* Design.swift in Sources */,
+				51E83C371E311A0E001F9A21 /* SettingsDetailViewController.swift in Sources */,
+				51E83C351E311A0E001F9A21 /* FavoritesViewController.swift in Sources */,
+				51E83C391E311A0E001F9A21 /* FavoriteJokes.swift in Sources */,
+				51E83C341E311A0E001F9A21 /* DodoViewController.swift in Sources */,
+				51E83C361E311A0E001F9A21 /* SettingsViewController.swift in Sources */,
+				51E83C381E311A0E001F9A21 /* Sharing.swift in Sources */,
+				51E83C3E1E311A0E001F9A21 /* Jokes.swift in Sources */,
+				51E83C3B1E311A0E001F9A21 /* Animations.swift in Sources */,
+				51E83C3D1E311A0E001F9A21 /* RandomDigit.swift in Sources */,
+				51E83C3A1E311A0E001F9A21 /* Audio.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,25 +394,6 @@
 			targetProxy = 51E83BF11E3112B0001F9A21 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		51E83BD81E3112B0001F9A21 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				51E83BD91E3112B0001F9A21 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		51E83BDD1E3112B0001F9A21 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				51E83BDE1E3112B0001F9A21 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		51E83BF71E3112B0001F9A21 /* Debug */ = {
@@ -413,11 +491,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = NMVG52YTDH;
 				INFOPLIST_FILE = DodoApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Klubhouse.DodoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DodoApp/DodoApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -426,11 +507,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = NMVG52YTDH;
 				INFOPLIST_FILE = DodoApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Klubhouse.DodoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DodoApp/DodoApp-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
